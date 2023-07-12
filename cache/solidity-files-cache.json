@@ -1,0 +1,40 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "D:\\ifi\\web3\\alchemy\\escrow-hardhat\\contracts\\Escrow.sol": {
+      "lastModificationDate": 1688671660438,
+      "contentHash": "26ff007478827bad48058f5a5bd5cf57",
+      "sourceName": "contracts/Escrow.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.8.17"
+      ],
+      "artifacts": [
+        "Escrow"
+      ]
+    }
+  }
+}

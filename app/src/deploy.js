@@ -9,3 +9,9 @@ export default async function deploy(signer, arbiter, beneficiary, value) {
   );
   return factory.deploy(arbiter, beneficiary, { value });
 }
+
+export  async function getContractInstance(address, provider){
+  // Create a contract instance
+  const contract = new ethers.Contract(address, Escrow.abi, provider);
+  return contract
+} 
